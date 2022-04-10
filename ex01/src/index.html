@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Gallery's page</title>
+    <script src="../scripts/index.js"></script>
+    <link rel="stylesheet" href="../styles/index.css" />
+    
+    <style>
+      .wrapper {
+            font-family: sans-serif;
+            width: 80%;
+            margin: 0 auto;
+            position: relative;
+        }
+        img{
+            opacity: 1;
+            display: block;
+            width: 200px;
+            height: auto;
+            transition: .5s ease;
+        }
+        .content {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-transform: uppercase;
+            font-size: 60px;
+            color: blue;
+            white-space: nowrap;
+            overflow: hidden;
+        
+        }
+        
+        
+        .overlay{
+            opacity: 0;
+        }
+        .wrapper:hover img{
+            opacity: .5;
+        }
+        .wrapper:hover .overlay{
+            opacity: 1;
+        }  
+      
+    </style>
+
+
+</head>
+
+<body>
+    <div>
+        <img src="../images/img1.jpg">
+        <div class="overlay">
+            <div class="content">
+                <a>Marathon</a>
+            </div>
+        </div>
+    </div>  
+  
+    <div>
+        <img src="../images/img2.jpg">
+        <div class="overlay">
+            <div class="content">
+                <a>Gymnastic</a>
+            </div>
+        </div>
+    </div>  
+  
+    <div>
+        <img src="../images/img3.jpg">
+        <div class="overlay">
+            <div class="content">
+                <a>Climbing</a>
+            </div>
+        </div>
+    </div>  
+  
+    <div>
+        <img src="../images/img4.jpg">
+        <div class="overlay">
+            <div class="content">
+                <a>Skiing</a>
+            </div>
+        </div>
+    </div>  
+  
+    <div>
+        <img src="../images/img5.jpg">
+        <div class="overlay">
+            <div class="content">
+                <a>Weight Lifting</a>
+            </div>
+        </div>
+    </div>  
+
+    <div>
+        <img src="../images/img6.jpg">
+        <div class="overlay">
+            <div class="content">
+                <a>Basketball</a>
+            </div>
+        </div>
+    </div>  
+  
+    <div>
+        <img src="../images/img7.jpg">
+        <div class="overlay">
+            <div class="content">
+                <a>Swimming</a>
+            </div>
+        </div>
+    </div>  
+  
+    <div>
+        <img src="../images/img8.jpg">
+        <div class="overlay">
+            <div class="content">
+                <a>Jogging</a>
+            </div>
+        </div>
+    </div>  
+  
+    <div>
+        <img src="../images/img9.jpg">
+        <div class="overlay">
+            <div class="content">
+                <a>Running</a>
+            </div>
+        </div>
+    </div>  
+  
+    <div>
+        <img src="../images/img10.jpg">
+        <div class="overlay">
+            <div class="content">
+                <a>Cycling</a>
+            </div>
+        </div>
+    </div>  
+  
+
+</body>
+
+
+</html>
+
